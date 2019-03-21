@@ -240,7 +240,7 @@ def player_stats(player_name)
             if attribute == :players
               quanity.each do |name, stats|
                 if name == player_name
-                  binding.pry
+                #  binding.pry
                   stats.each do |stat, quanity|
                     if stat == :points
                       return quanity
